@@ -1,0 +1,49 @@
+body {
+    background: url(./img/circuit-background-image.jpg)center/cover no-repeat;
+    /* long hand of background-image is as below */
+    /* background-image: url(./img/circuit-background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-box {
+    flex: 0 0 50%;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    border: 3px solid gray;
+    box-shadow: 5px 5px 10px 10px #333;
+    padding: 16px;
+    text-transform: capitalize;
+}
+
+.counter {
+    font-size: 96px;
+}
+
+.buttons {
+    background-color: #fff;
+    font-size: 2rem;
+    margin: 0.5rem 0.25rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: 3px solid gray;
+    box-shadow: 3px 5px #333;
+}
+
+.buttons:hover {
+    background-color: rgb(118, 118, 225);
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons:active {
+    box-shadow: none;
+}
+
+
